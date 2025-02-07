@@ -1,0 +1,17 @@
+# use an official python runtime as a base image  
+FROM python:3.7-slim
+
+# set the working directory in the container to app
+WORKDIR /app
+
+# copy the current directory contents into the container at /app
+ADD . /app
+
+# install required packages
+RUN pip install --trusted-host pypi.python.org -r requirements.txt
+
+# define environment variable for flask
+ENV FLASK_APP app.py
+
+# run command to start the app
+CMD ["flask", "run", "--host= 0,0,0,0"]

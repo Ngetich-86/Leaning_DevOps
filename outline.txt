@@ -1,0 +1,94 @@
+🔹 Week 1-2: Introduction to DevOps & Fundamentals
+✅ What is DevOps?
+
+DevOps Principles & Culture
+Dev vs. Ops: Bridging the Gap
+Benefits & Challenges of DevOps
+✅ DevOps Lifecycle
+
+CI/CD Pipelines
+Infrastructure as Code (IaC)
+Monitoring & Logging
+✅ Version Control with Git & GitHub
+
+Git Basics: Cloning, Branching, Merging
+Pull Requests & Code Reviews
+GitHub Actions for CI/CD
+✅ Hands-on Lab:
+
+Set up a GitHub repository with a CI/CD pipeline
+🔹 Week 3-4: Continuous Integration & Continuous Deployment (CI/CD)
+✅ Understanding CI/CD Pipelines
+
+CI/CD Stages (Build, Test, Deploy)
+Jenkins, GitHub Actions, GitLab CI/CD
+✅ Automating Builds & Tests
+
+Writing CI/CD Pipelines in YAML
+Unit Testing, Integration Testing, and Code Coverage
+✅ Deployment Strategies
+
+Blue-Green Deployments
+Canary Releases
+Rolling Updates
+✅ Hands-on Lab:
+
+Deploy a sample application using GitHub Actions
+🔹 Week 5-6: Infrastructure as Code (IaC) & Configuration Management
+✅ IaC Fundamentals
+
+Introduction to Terraform & AWS CloudFormation
+Writing & Deploying Terraform Scripts
+✅ Configuration Management
+
+Ansible, Puppet, and Chef Basics
+Automating Server Configurations
+✅ Hands-on Lab:
+
+Provision cloud infrastructure using Terraform on AWS
+🔹 Week 7-8: Containers & Kubernetes
+✅ Docker & Containerization
+
+Docker Basics: Images, Containers, Dockerfile
+Container Networking & Storage
+Docker Compose for Multi-Container Apps
+✅ Kubernetes Basics
+
+Kubernetes Architecture (Pods, Services, Deployments)
+Helm Charts for App Deployment
+Auto-scaling & Load Balancing
+✅ Hands-on Lab:
+
+Deploy a containerized app on Kubernetes
+🔹 Week 9-10: Cloud & DevOps Automation
+✅ Cloud Platforms (AWS, Azure, GCP)
+
+AWS DevOps Tools (CodePipeline, CodeDeploy, CodeBuild)
+Azure DevOps & GitHub Actions
+GCP Cloud Build & Cloud Run
+✅ Serverless & Microservices
+
+AWS Lambda & Serverless Framework
+Deploying Microservices with Kubernetes
+✅ Hands-on Lab:
+
+Build a serverless app using AWS Lambda & API Gateway
+🔹 Week 11-12: Security, Monitoring, & Final Project
+✅ DevSecOps: Security in DevOps
+
+Security Best Practices for DevOps
+Secrets Management (AWS Secrets Manager, HashiCorp Vault)
+Static & Dynamic Code Analysis
+✅ Monitoring & Logging
+
+Prometheus & Grafana for Monitoring
+ELK Stack (Elasticsearch, Logstash, Kibana)
+Cloud Logging Tools (AWS CloudWatch, Azure Monitor)
+✅ Final Hands-on Project:
+
+Implement a full DevOps pipeline with Terraform, Docker, Kubernetes, and CI/CD
+💡 Bonus Topics (Optional)
+Site Reliability Engineering (SRE) & Observability
+GitOps with ArgoCD & Flux
+Advanced Kubernetes (Service Mesh, Istio, KEDA)
+Chaos Engineering
